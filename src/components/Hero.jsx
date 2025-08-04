@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDownload, FaEye } from "react-icons/fa";
 import profileImg from "../assets/picofme.png";
+
 const Hero = () => {
   return (
     <section
@@ -35,6 +37,15 @@ const Hero = () => {
           className="px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition"
         >
           Contact Me
+        </a>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-800 transition flex items-center gap-2"
+        >
+          <FaEye />
+          View Resume
         </a>
       </div>
 
