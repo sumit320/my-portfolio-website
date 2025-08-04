@@ -12,11 +12,11 @@ const Projects = () => {
           Projects
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 ">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-700 p-6 rounded shadow-md hover:shadow-lg transition duration-300"
+              className="bg-gray-700 p-6 rounded shadow-md  hover:scale-110 transition duration-300"
             >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
