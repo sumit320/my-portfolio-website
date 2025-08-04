@@ -10,7 +10,7 @@ const Hero = () => {
       <img
         src={profileImg}
         alt="my-profile"
-        className="w-50 h-50 mt-10 rounded-full object-cover mb-6 shadow-lg hover:shadow-gray-600 transform "
+        className="w-48 h-48 mt-10 rounded-full object-cover mb-6 shadow-lg hover:shadow-gray-600 transform"
       />
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
         Hi, I'm Sumit Kumar
@@ -18,7 +18,7 @@ const Hero = () => {
       <p className="text-xl md:text-2xl mb-6">
         Frontend Developer | React Enthusiast
       </p>
-      <p className="max-w-xl text-md md:text-lg text-black-700 mb-8">
+      <p className="max-w-xl text-md md:text-lg text-gray-700 dark:text-gray-300 mb-8">
         I create responsive, modern, and user-friendly web applications using
         React, JavaScript, and Tailwind CSS.
       </p>
@@ -31,7 +31,7 @@ const Hero = () => {
           View Projects
         </a>
         <a
-          href="/contacts"
+          href="/contact"
           className="px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-600 hover:text-white transition"
         >
           Contact Me
