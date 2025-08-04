@@ -25,7 +25,7 @@ const Hero = () => {
         React, JavaScript, and Tailwind CSS.
       </p>
 
-      <div className="flex gap-4 mb-6">
+      <div className="flex text-sm sm:text-lg gap-2 items-center justify-center sm:gap-4 mb-6 flex-wrap">
         <a
           href="/projects"
           className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition"
@@ -52,12 +52,14 @@ const Hero = () => {
       <div className="flex gap-3 text-3xl">
         <a
           href="https://github.com/sumit320"
+          target="_blank"
           className="hover:text-blue-600 hover:-translate-y-1 transition-transform duration-300"
         >
           <FaGithub />
         </a>
         <a
           href="https://www.linkedin.com/in/sumitkr001/"
+          target="_blank"
           className="hover:text-blue-600 hover:-translate-y-1 transition-transform duration-300"
         >
           <FaLinkedin />

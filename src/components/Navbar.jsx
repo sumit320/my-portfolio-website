@@ -59,7 +59,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Optional: Backdrop for mobile menu */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black opacity-40 z-40 md:hidden"
