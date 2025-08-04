@@ -72,12 +72,14 @@ const Contact = () => {
         <div className="flex gap-3 text-3xl mt-5">
           <a
             href="https://github.com/sumit320"
+            target="_blank"
             className="hover:text-blue-600 hover:-translate-y-1 transition-transform duration-300"
           >
             <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/sumitkr001/"
+            target="_blank"
             className="hover:text-blue-600 hover:-translate-y-1 transition-transform duration-300"
           >
             <FaLinkedin />
