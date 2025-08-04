@@ -35,7 +35,9 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-600 text-white fixed w-full top-0 left-0 shadow-md z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
-        <h1 className="text-xl font-bold">Sumit Kumar</h1>
+        <h1 className="text-xl font-bold">
+          <a href="/">Sumit Kumar</a>
+        </h1>
 
         <ul className="hidden md:flex space-x-6 font-medium">
           <li className="hover:text-gray-800">
