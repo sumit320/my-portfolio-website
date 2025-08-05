@@ -41,7 +41,6 @@ const Hero = () => {
         <a
           href="/resume.pdf"
           target="_blank"
-          rel="noopener noreferrer"
           className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-800 transition flex items-center gap-2"
         >
           <FaEye />
