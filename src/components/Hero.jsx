@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaDownload, FaEye } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
 import profileImg from "../assets/picofme.png";
 
 const Hero = () => {
