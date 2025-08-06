@@ -2,8 +2,8 @@ const projects = [
   {
     title: "Todo App",
     description: "A task manager built using React and localStorage.",
-    link: "",
-    github: "",
+    link: "/projects",
+    github: "/projects",
   },
   {
     title: "Portfolio Website",
@@ -16,7 +16,7 @@ const projects = [
     title: "Task Management App",
     description:
       "A task management app where users can create, edit, and move tasks across columns like To Do, In Progress, and Done. Built with React and Tailwind.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/sumit320/Task_Management",
   },
 ];
