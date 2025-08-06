@@ -9,8 +9,8 @@ const projects = [
     title: "Portfolio Website",
     description:
       "My personal developer portfolio built with React and Tailwind CSS.",
-    link: "",
-    github: "",
+    link: "https://my-portfolio-website-azure-tau.vercel.app",
+    github: "https://github.com/sumit320/my-portfolio-website",
   },
   {
     title: "Task Management App",
