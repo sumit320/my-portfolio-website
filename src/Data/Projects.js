@@ -19,6 +19,13 @@ const projects = [
     link: "/projects",
     github: "https://github.com/sumit320/Task_Management",
   },
+  {
+    title: "Ecommerce Store",
+    description:
+      "A frontend-only ecommerce store built with React. Features include product listings, product details, cart functionality, and search filtering.",
+    link: "https://ecommerce-store-pearl-seven.vercel.app/",
+    github: "https://github.com/sumit320/Ecommerce-Store",
+  },
 ];
 
 export default projects;
