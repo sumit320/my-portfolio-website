@@ -1,23 +1,10 @@
 const projects = [
   {
-    title: "Todo App",
-    description: "A task manager built using React and localStorage.",
-    link: "/projects",
-    github: "/projects",
-  },
-  {
     title: "Portfolio Website",
     description:
       "My personal developer portfolio built with React and Tailwind CSS.",
     link: "https://my-portfolio-website-azure-tau.vercel.app",
     github: "https://github.com/sumit320/my-portfolio-website",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A task management app where users can create, edit, and move tasks across columns like To Do, In Progress, and Done. Built with React and Tailwind.",
-    link: "/projects",
-    github: "https://github.com/sumit320/Task_Management",
   },
   {
     title: "Ecommerce Store",
