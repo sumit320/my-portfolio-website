@@ -39,7 +39,7 @@ const Hero = () => {
           Contact Me
         </a>
         <a
-          href="/resume.pdf"
+          href="/Resume.pdf"
           target="_blank"
           className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-800 transition flex items-center gap-2"
         >
